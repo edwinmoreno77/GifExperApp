@@ -1,7 +1,10 @@
 import React from 'react'
 
-export const GifGridItem = () => {
+export const GifGridItem = ({ title, url }) => {
     return (
-        <div>GifGridItem</div>
+        <div>
+            <img src={url} alt={title} />
+            <p>{title}</p>
+        </div>
     )
 }
