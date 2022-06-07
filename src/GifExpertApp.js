@@ -6,7 +6,7 @@ import { GifGrid } from './components/GifGrid';
 
 const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState(['']);
+    const [categories, setCategories] = useState(['Goku']);
 
     return (
         <div>
