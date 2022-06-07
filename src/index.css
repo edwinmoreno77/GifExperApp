@@ -37,6 +37,10 @@ input{
     text-align: center;
 }
 .card img {
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 400px;
+    max-height: 200px;
+}
+
+.titulo{
+    text-align: center;
 }

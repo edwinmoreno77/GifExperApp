@@ -9,7 +9,7 @@ const GifExpertApp = () => {
     const [categories, setCategories] = useState(['Goku']);
 
     return (
-        <div>
+        <div className='titulo'>
             <h1>GifExpertApp</h1>
             <AddCategory setCategories={setCategories} />
             <hr />
